@@ -31,7 +31,7 @@ class Artist
   def genres
     genres = []
     @songs.each {|song| genres << song.genre unless genres.include?(song.genre)}
-    genres
+    genres.uniq
   end
   
   def self.all 
