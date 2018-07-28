@@ -47,10 +47,3 @@ class Artist
   end
 end
 
-# a = Artist.create("U2")
-# b = Artist.create('steen')
-# p Artist.find_by_name("U2")
-# p Artist.find_by_name("Steen")
-# p Artist.find_or_create_by_name("Jewel")
-# puts a.songs[0].artist
-# puts Artist.all.inspect
