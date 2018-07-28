@@ -43,6 +43,6 @@ class Genre
   end 
   
   def save 
-    @@all << self
+    @@all << self unless @@all.include?(self)
   end
 end
